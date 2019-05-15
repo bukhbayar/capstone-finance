@@ -1,16 +1,16 @@
-capstone-finance
+# Capstone Project
 ==============================
 
-# Data Set
+## Data Set
 
-## Credit Card Fraud Detection
+### 1. Credit Card Fraud Detection
 https://www.kaggle.com/mlg-ulb/creditcardfraud
 
-## Synthetic Financial Datasets For Fraud Detection
+### 2. Synthetic Financial Datasets For Fraud Detection
 https://www.kaggle.com/ntnu-testimon/paysim1
 
 
-## Loan Default Prediction
+### 3. Loan Default Prediction
 https://www.kaggle.com/roshansharma/loan-default-prediction
 
 
