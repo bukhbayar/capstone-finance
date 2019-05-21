@@ -1,10 +1,59 @@
 # Capstone Project
 ==============================
 
-## Data Set
-
 ### 1. Credit Card Fraud Detection
+
+
+### What is Fraud
+Fraud is a billion-dollar business, and according to PWC (2018), it is increasing every year.
+
+#### Some common problems:
+- Credit Card Fraud
+- Tax Fraud
+- Fraud in Supply Chains, Retail networks, Purchase Department
+- Fraud in Insurances
+- Fraud in Healthcare
+
+### Challenges in Detecting Frauds
+Information technology, business reengineering, reorganization or downsizing may weaken or eliminate control, while new information systems may present additional opportunities to commit fraud.
+
+#### Traditional programming techniques
+- Frequency between tries from same IP or computer
+- Registered customer's location like country, postcode or address
+- 3D code in payment
+
+#### Machine Learning techniques
+One of the common technique to detect fraud in credit card payment is Anomoly detection which is a technique used to identify unusual patterns that do not conform to expected behavior, called outliers. 
+
+#### Other usages of Anomoly Detection:
+- Manufactoring
+- Data Center 
+- Airplane engine
+
+### Some common machine learning-based approaches for Anomaly Detection
+
+- Density-Based Anomaly Detection (example: k-NN, LOF)
+- Clustering-Based Anomaly Detection
+- Support Vector Machine-Based Anomaly Detection
+- Isolation Forest Anomaly Detection Algorithm
+
+
+### Outlier vs Anamoly
+Outlier: a value that you predictably find in your data that indicates your model does not work properly
+
+Anomaly: a value that against all odds you find in your data that indicates your model does work properly
+
+### Dataset
 https://www.kaggle.com/mlg-ulb/creditcardfraud
+
+Dataset is transformed Principal Component Analysis (PCA) which is commonly used:
+- Dimensionality reduction algorithm
+- Speed-up Machine Learning algorithms
+
+#### Observation
+- some features (V1, V2, V3, ... ,V28) transformed to PCA and Time, Amount features not transformed.
+- target is Class (1-Fraud, 0-NonFraud)
+
 
 ### 2. Synthetic Financial Datasets For Fraud Detection
 https://www.kaggle.com/ntnu-testimon/paysim1
