@@ -2,7 +2,7 @@
 ==============================
 ### What is Fraud Detection
 
-Fraud detection is a problem that applicable in many industries including banks and financial sectors, insurance, government agencies and law enforcement. On the other hand, its becoming billion-dollar business (2018 PWC), and it is increasing every year.
+Fraud detection is a problem that applicable in many industries including banks and financial sectors, insurance, government agencies and law enforcement. On the other hand, its becoming billion-dollar business ([2018 PWC](https://www.pwc.com/gx/en/forensics/global-economic-crime-and-fraud-survey-2018.pdf)), and it is increasing every year.
 
 #### Some common Frauds:
 - Credit Card Fraud
@@ -54,9 +54,15 @@ Dataset is transformed Principal Component Analysis (PCA) which is commonly used
 - target is Class (1-Fraud, 0-NonFraud)
 
 ### Modeling in Anomaly Detection
-- Anomaly Detection using Gaussian Distribution
-  The one of the main purposes of working on Capstone project is learning. So, personally I am interested in Anomaly Detection   technique that taugh by Andrew Ng. Its simple, and easy to understand what Anomaly Detection is, and I am hoping that it will 
-  be my base knowledge to understand other ML algorithms. if you were insterested in this course, please click [here](https://www.coursera.org/learn/machine-learning)
+- Anomaly Detection using Gaussian Distribution  
+  One of the main purposes of working on Capstone project is learning. So, personally, I am interested in Anomaly Detection technique taught by ***Andrew Ng***. It is simple, and easy to understand what Anomaly Detection is, and I am hoping that it will be my base knowledge to understand other ML algorithms. if you were interested in this course, please click [here](https://www.coursera.org/learn/machine-learning)
+ 
+ ***For example:***
+![alt text](docs/images/anomaly_detection6.png "Anomaly Detection")
+
+  ***Source***: https://www.ritchieng.com/machine-learning-anomaly-detection/
+  
+  
 - SVN
 - ISOlation forest
 - clustering
