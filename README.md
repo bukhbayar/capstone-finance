@@ -1,36 +1,35 @@
 # Capstone Project
 ==============================
+### What is Fraud Detection
 
-### 1. Credit Card Fraud Detection
+Fraud detection is a problem that applicable in many industries including banks and financial sectors, insurance, government agencies and law enforcement. On the other hand, its becoming billion-dollar business (2018 PWC), and it is increasing every year.
 
-
-### What is Fraud
-Fraud is a billion-dollar business, and according to PWC (2018), it is increasing every year.
-
-#### Some common problems:
+#### Some common Frauds:
 - Credit Card Fraud
 - Tax Fraud
 - Fraud in Supply Chains, Retail networks, Purchase Department
 - Fraud in Insurances
 - Fraud in Healthcare
 
-### Challenges in Detecting Frauds
+### Challenges in detecting Frauds
 Information technology, business reengineering, reorganization or downsizing may weaken or eliminate control, while new information systems may present additional opportunities to commit fraud.
 
 #### Traditional programming techniques
-- Frequency between tries from same IP or computer
+- Frequency between unsuccessful tries
 - Registered customer's location like country, postcode or address
-- 3D code in payment
+- 3D code in credit card payment
+- other unusual behaviour that captured by human
 
-#### Machine Learning techniques
-One of the common technique to detect fraud in credit card payment is Anomoly detection which is a technique used to identify unusual patterns that do not conform to expected behavior, called outliers. 
+#### Machine Learning techniques in Fraud Detection
+One of the common technique to detect fraud in credit card payment is Anomaly Detection that used to identify unusual patterns that do not conform to expected behavior, called outliers. 
 
-#### Other usages of Anomoly Detection:
+#### Other common usages of Anomaly Detection:
 - Manufactoring
 - Data Center 
 - Airplane engine
+- Website
 
-### Some common machine learning-based approaches for Anomaly Detection
+### Some commong Machine Learning-based approaches for Anomaly Detection
 
 - Density-Based Anomaly Detection (example: k-NN, LOF)
 - Clustering-Based Anomaly Detection
@@ -54,13 +53,13 @@ Dataset is transformed Principal Component Analysis (PCA) which is commonly used
 - some features (V1, V2, V3, ... ,V28) transformed to PCA and Time, Amount features not transformed.
 - target is Class (1-Fraud, 0-NonFraud)
 
-
-### 2. Synthetic Financial Datasets For Fraud Detection
-https://www.kaggle.com/ntnu-testimon/paysim1
-
-
-### 3. Loan Default Prediction
-https://www.kaggle.com/roshansharma/loan-default-prediction
+### Modeling in Anomaly Detection
+- Anomaly Detection using Gaussian Distribution
+  The one of the main purposes of working on Capstone project is learning. So, personally I am interested in Anomaly Detection   technique that taugh by Andrew Ng. Its simple, and easy to understand what Anomaly Detection is, and I am hoping that it will 
+  be my base knowledge to understand other ML algorithms. if you were insterested in this course, please click [here](https://www.coursera.org/learn/machine-learning)
+- SVN
+- ISOlation forest
+- clustering
 
 
 Project Organization
