@@ -1,5 +1,24 @@
-# Capstone Project
+# Fraud detection in credit card transaction
 ==============================
+
+## Outline
+- Problem
+  - Business problem
+  - Technical problem
+- Dataset
+- Fraud Detection
+  - Challenges in Fraud Detection
+  - Machine Learning approaches in Fraud Detection
+  - Anomaly Detection
+- Modelling
+  - Supervsed Learning
+  - Unsupervised Learning
+  - Anomaly vs Supervised Learning
+- Testing and Tuning
+- Deployment and Pipeline
+- Sum up
+- Reference
+
 ### What is Fraud Detection
 
 Fraud detection is a problem that applicable in many industries including banks and financial sectors, insurance, government agencies and law enforcement. On the other hand, its becoming billion-dollar business ([2018 PWC](https://www.pwc.com/gx/en/forensics/global-economic-crime-and-fraud-survey-2018.pdf)), and it is increasing every year.
@@ -54,8 +73,8 @@ Dataset is transformed Principal Component Analysis (PCA) which is commonly used
 - target is Class (1-Fraud, 0-NonFraud)
 
 ### Modeling in Anomaly Detection
-- Anomaly Detection using Gaussian Distribution  
-  One of the main purposes of working on Capstone project is learning. So, personally, I am interested in Anomaly Detection technique taught by ***Andrew Ng***. It is simple, and easy to understand what Anomaly Detection is, and I am hoping that it will be my base knowledge to understand other ML algorithms. if you were interested in this course, please click [here](https://www.coursera.org/learn/machine-learning)
+- ***Anomaly Detection using Gaussian Distribution***  
+  One of the main purposes of working on Capstone project is learning. So, personally, I am interested in Anomaly Detection technique taught by ***Andrew Ng***. It is simple, and easy to understand what Anomaly Detection is, and I am hoping that it will be my base knowledge to understand other ML algorithms to detect Anomaly. if you were interested in this course, please click [here](https://www.coursera.org/learn/machine-learning)
  
  ***For example:***
 ![alt text](docs/images/anomaly_detection6.png "Anomaly Detection")
@@ -63,12 +82,22 @@ Dataset is transformed Principal Component Analysis (PCA) which is commonly used
   ***Source***: https://www.ritchieng.com/machine-learning-anomaly-detection/
   
   
-- SVN
 - ISOlation forest
-- clustering
 
+#### Other good Anomaly Detection algorithms
 
-Project Organization
+- SVM
+- Clustering
+
+## Anomaly Detection vs Supervised Learning
+Based on this initial EDA, this dataset does not have any null values and highly imbalance. According to Andrew NG, Anomaly Detection is best for umbalance dataset and supervised learning is better if dataset balanced. See the picture below
+
+#### 99.8273% of total transaction is Non Fraud
+#### 0.1727% of total transaction is Fraud
+
+![alt text](docs/images/anomaly-vs-supervised.png "Anomaly Detection vs Supervised Learning")
+
+Capstone Project Organization
 ------------
 
     ├── LICENSE
@@ -79,7 +108,7 @@ Project Organization
     │   ├── interim        <- Intermediate data that has been transformed.
     │   ├── processed      <- The final, canonical data sets for modeling.
     │   └── raw            <- The original, immutable data dump.
-    │
+    │── data-mini          <- A dataset that minimised from original dataset to run notebook on github
     ├── docs               <- A default Sphinx project; see sphinx-doc.org for details
     │
     ├── models             <- Trained and serialized models, model predictions, or model summaries
