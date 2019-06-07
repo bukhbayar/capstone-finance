@@ -19,11 +19,18 @@
 - Reference
 
 ## 1. Problem
+
 ### 1.1 Business Problem
-Fraud detection is a problem that applicable in many industries including banks and financial sectors, insurance, government agencies and law enforcement. On the other hand, its becoming billion-dollar business ([2018 PWC](https://www.pwc.com/gx/en/forensics/global-economic-crime-and-fraud-survey-2018.pdf)), and it is increasing every year.
+
+Fraud detection is a problem that applies in many industries including banks, financial industries, insurance, government agencies and law enforcement. On the other hand, its becoming billion-dollar business ([2018 PWC](https://www.pwc.com/gx/en/forensics/global-economic-crime-and-fraud-survey-2018.pdf)), and it is increasing every year as well as companies are facing huge losses. 
 
 ### 1.2 Technical Problem
-Information technology, business reengineering, reorganization or downsizing may weaken or eliminate control, while new information systems may present additional opportunities to commit fraud.
+
+Detecting fraud transaction is becoming more chalanging every day, the people who commit fraud are becoming starter 
+
+Information technology, data science, business reengineering are identifying or trying to eliminate control but in mean time, information systems may present more new ways to commit fraud. 
+
+
 
 #### Some common Frauds:
 - Credit Card Fraud
