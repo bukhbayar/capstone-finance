@@ -7,7 +7,6 @@
   - Technical problem
 - Dataset
 - Fraud Detection
-  - Challenges in Fraud Detection
   - Machine Learning approaches in Fraud Detection
   - Anomaly Detection
 - Modelling
@@ -19,9 +18,12 @@
 - Sum up
 - Reference
 
-### What is Fraud Detection
-
+## 1. Problem
+### 1.1 Business Problem
 Fraud detection is a problem that applicable in many industries including banks and financial sectors, insurance, government agencies and law enforcement. On the other hand, its becoming billion-dollar business ([2018 PWC](https://www.pwc.com/gx/en/forensics/global-economic-crime-and-fraud-survey-2018.pdf)), and it is increasing every year.
+
+### 1.2 Technical Problem
+Information technology, business reengineering, reorganization or downsizing may weaken or eliminate control, while new information systems may present additional opportunities to commit fraud.
 
 #### Some common Frauds:
 - Credit Card Fraud
@@ -29,9 +31,6 @@ Fraud detection is a problem that applicable in many industries including banks 
 - Fraud in Supply Chains, Retail networks, Purchase Department
 - Fraud in Insurances
 - Fraud in Healthcare
-
-### Challenges in detecting Frauds
-Information technology, business reengineering, reorganization or downsizing may weaken or eliminate control, while new information systems may present additional opportunities to commit fraud.
 
 #### Traditional programming techniques
 - Frequency between unsuccessful tries
@@ -82,7 +81,7 @@ Dataset is transformed Principal Component Analysis (PCA) which is commonly used
   ***Source***: https://www.ritchieng.com/machine-learning-anomaly-detection/
   
   
-- ISOlation forest
+- Isolation Forest
 
 #### Other good Anomaly Detection algorithms
 
@@ -96,6 +95,10 @@ Based on this initial EDA, this dataset does not have any null values and highly
 #### 0.1727% of total transaction is Fraud
 
 ![alt text](docs/images/anomaly-vs-supervised.png "Anomaly Detection vs Supervised Learning")
+
+
+### Reference
+https://www.researchgate.net/publication/40227011_Credit_card_fraud_and_detection_techniques_A_review
 
 Capstone Project Organization
 ------------
